@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Computer Science student portfolio showcasing coding projects, technical skills, and passion for software development">
+    <title>Kavineshwaran - CSE Student & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <h1>Kavinesh<span class="accent">.dev</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-greeting">Hey, I'm</h2>
+                <h1 class="hero-title">Kavineshwaran</h1>
+                <p class="hero-subtitle">2nd Year CSE Student | Full Stack Developer</p>
+                <p class="hero-description">
+                    Passionate about building scalable applications and solving complex problems with clean, efficient code. 
+                    Currently exploring web technologies, backend systems, and competitive programming. Always learning, always coding.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-placeholder">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="100" fill="var(--color-primary-light)"/>
+                        <circle cx="100" cy="70" r="35" fill="var(--color-primary)"/>
+                        <ellipse cx="100" cy="140" rx="45" ry="50" fill="var(--color-primary)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a second-year Computer Science student with a strong passion for coding and building innovative solutions. 
+                        My journey started with curiosity about how things work, and now I'm actively learning full-stack development, 
+                        algorithms, and software architecture. I focus on writing clean, efficient, and maintainable code.
+                    </p>
+                    <p>
+                        When I'm not in classes or studying, I'm working on personal projects, participating in coding competitions, 
+                        or exploring new technologies. I'm keen on contributing to open-source projects and collaborating with other 
+                        developers. I believe in continuous learning and the power of collaborative development.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Projects Built</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8+</h3>
+                            <p>Languages</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2nd Yr</h3>
+                            <p>CSE Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="300" fill="var(--color-accent-light)" rx="10"/>
+                            <circle cx="150" cy="150" r="80" fill="var(--color-primary)"/>
+                            <rect x="100" y="80" width="100" height="120" fill="var(--color-background)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">�</div>
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python (Core)</li>
+                        <li>JavaScript </li>
+                        <li>C++ </li>
+                        <li>Java </li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>React.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Backend & Databases</h3>
+                    <ul class="skill-list">
+                        <li>Node.js & Express</li>
+                        <li>MongoDB & PostgreSQL</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Developer Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>VS Code & Jupyter</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Core CS Concepts</h3>
+                    <ul class="skill-list">
+                        <li>Data Structures</li>
+                        <li>Algorithms & Time Complexity</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Specializations</h3>
+                    <ul class="skill-list">
+                        <li>Competitive Programming</li>
+                        <li>Web Development (Full Stack)</li>
+                        <li>Backend Architecture</li>
+                        <li>Open Source Contribution</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="var(--color-primary-light)"/>
+                            <rect x="30" y="30" width="240" height="140" fill="var(--color-primary)" rx="5"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chat Application</h3>
+                        <p>Real-time chat application with user authentication, message history, typing indicators, and user status. Built with WebSocket for real-time communication.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">View Live</a>
+                            <a href="#" class="link-btn">View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="var(--color-accent-light)"/>
+                            <circle cx="150" cy="100" r="60" fill="var(--color-accent)"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>CP Code Compiler</h3>
+                        <p>Online IDE for competitive programming. Execute C++, Python, Java code with input/output handling. Includes syntax highlighting and code storage using local database.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS/JS</span>
+                            <span class="tag">Python Backend</span>
+                            <span class="tag">APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">View Live</a>
+                            <a href="#" class="link-btn">View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="var(--color-success-light)"/>
+                            <rect x="40" y="40" width="220" height="120" fill="var(--color-success)" rx="8"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>To-Do List Manager</h3>
+                        <p>Full-stack task management application with CRUD operations, local storage, filtering, and priority levels. Demonstrates MERN stack fundamentals and state management.</p>
+                        <div class="project-tags">
+                            <span class="tag">MERN Stack</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">View Live</a>
+                            <a href="#" class="link-btn">View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="var(--color-secondary-light)"/>
+                            <path d="M 50 100 L 150 50 L 250 100 L 200 180 L 100 180 Z" fill="var(--color-secondary)"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sorting Visualizer</h3>
+                        <p>Interactive algorithm visualizer showing different sorting techniques (Bubble, Merge, Quick Sort) with step-by-step animation. Educational tool for learning algorithms.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Canvas API</span>
+                            <span class="tag">Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn">View Live</a>
+                            <a href="#" class="link-btn">View Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <article class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:kavineshwaran@example.com">kavineshwaran@example.com</a></p>
+                    </article>
+
+                    <article class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+918234567890">+91 8234567890</a></p>
+                    </article>
+
+                    <article class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>India</p>
+                    </article>
+
+                    <article class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <h3>Social</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub">GitHub</a>
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="CodeChef">CodeChef</a>
+                        </div>
+                    </article>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Kavinesh.dev</h4>
+                    <p>A passionate CSE student building cool things with code. Always learning, always coding.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">CodeChef</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kavineshwaran. All rights reserved. | Crafted with passion & code ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
